@@ -1,0 +1,35 @@
+###############################################################################
+# Normaliza fim de linha automaticamente para arquivos de texto
+###############################################################################
+* text=auto
+
+###############################################################################
+# Diff amigavel para codigo MATLAB no terminal
+###############################################################################
+*.m text diff=matlab
+
+###############################################################################
+# Arquivos binarios MATLAB/Simulink.
+# "merge=mlAutoMerge" delega a resolucao de conflitos ao merge automatico
+# do Simulink (ver configuracao em ~/.gitconfig).
+###############################################################################
+*.fig      binary
+*.mat      binary
+*.mdl      binary merge=mlAutoMerge
+*.mdlp     binary
+*.mexa64   binary
+*.mexw64   binary
+*.mexmaci64 binary
+*.mlapp    binary
+*.mldatx   binary
+*.mlproj   binary
+*.mlx      binary
+*.p        binary
+*.sfx      binary
+*.sldd     binary
+*.slreqx   binary merge=mlAutoMerge
+*.slmx     binary merge=mlAutoMerge
+*.slx      binary merge=mlAutoMerge
+*.slxc     binary
+*.slxp     binary
+*.sltx     binary

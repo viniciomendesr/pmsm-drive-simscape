@@ -1,0 +1,34 @@
+# ---- Arquivos derivados / cache do MATLAB e Simulink ----
+slprj/
+sccprj/
+codegen/
+work/
+derived/
+
+# Cache de simulacao e artefatos de build
+*.slxc
+*.slxc.*
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mex*
+
+# Autosave / backup
+*.asv
+*.autosave
+*.m~
+*.mlx.autosave
+
+# Logs e relatorios gerados
+*.log
+rtwbuild/
+*_ert_rtw/
+*_grt_rtw/
+*_sfun/
+*.c.bak
+
+# Pasta de trabalho local do MATLAB Project (nao versionar)
+resources/.metadata/
+
+# macOS
+.DS_Store
